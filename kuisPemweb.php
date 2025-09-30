@@ -3,7 +3,6 @@
     <title>Kuis Pemrograman Web</title>
 
     <style>
-
 select {
     width: 100%;
     padding: 13px;
