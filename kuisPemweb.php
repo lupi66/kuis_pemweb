@@ -137,9 +137,9 @@ if (isset($_GET['kunci']) && $_GET['kunci'] != "") {
                 <td>Program Studi <br>
             <select name="program_studi" required>
                         <option hidden>Pilih Program Studi...</option>
-                        <option value="Teknik Informatika">Teknik Informatika</option>
+                        <option value="Teknik Informatika">Informatika</option>
                         <option value="Sistem Informasi">Sistem Informasi</option>
-                        <option value="Teknologi Informasi">Teknologi Informasi</option>
+                        <option value="Teknologi Informasi">Teknik Elektro</option>
                     </select>
             </td>
             </tr>
