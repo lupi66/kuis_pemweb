@@ -103,7 +103,7 @@ border-color: #a29bfe;
 // Proses Form Pencarian
 if (isset($_GET['kunci']) && $_GET['kunci'] != "") {
     $kunci = htmlspecialchars($_GET['kunci']);
-    echo "<tr><td><p><b>Anda mencari data dengan kata kunci: $kunci</b></p></td></tr>";
+    echo "<tr><td><p>Anda mencari data dengan kata kunci: <b style='color:blue;'>$kunci</b></p></td></tr>";
 }
 ?>
 
