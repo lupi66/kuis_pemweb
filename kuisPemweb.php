@@ -3,6 +3,7 @@
     <title>Kuis Pemrograman Web</title>
 
     <style>
+
 select {
     width: 100%;
     padding: 13px;
@@ -39,7 +40,7 @@ input[type="checkbox"] {
 
 .container textarea {
     width: 100%;
-    height: 70px;
+    height: 80px;
     border: 2px solid #e7e7e7;
     border-radius: 7px;
     padding: 15px 20px;
@@ -151,7 +152,7 @@ if (isset($_GET['kunci']) && $_GET['kunci'] != "") {
             </tr>
             <tr>
                 <td>Alamat <br>
-            <textarea name="alamat" rows="4" cols="30" placeholder="Masukkan Alamat Lengkap Anda..." required></textarea>
+            <textarea name="alamat" placeholder="Masukkan Alamat Lengkap Anda..." required></textarea>
             </td>
             </tr>
             <tr>
