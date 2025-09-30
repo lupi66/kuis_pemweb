@@ -144,8 +144,8 @@ if (isset($_GET['kunci']) && $_GET['kunci'] != "") {
             </td>
             </tr>
             <tr>
-                <td>Hobi <br>
-            <input type="checkbox" name="hobi[]" value="Membaca">Membaca
+                <td>Hobi: <br>
+            <input type="checkbox" name="hobi[]" value="Membaca Novel">Membaca Novel
                     <input type="checkbox" name="hobi[]" value="Berenang">Berenang
                     <input type="checkbox" name="hobi[]" value="Mendengarkan Musik">Mendengarkan Musik
             </td>
